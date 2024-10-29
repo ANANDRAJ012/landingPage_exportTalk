@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #032519; /* Dark green background */
+  }
+
+  .container {
+    background: linear-gradient(145deg, #104735, #032519);
+    border-radius: 20px;
+    padding: 40px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+    height: 574.5px;
+  }
+
+  .container h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .container p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #b0c4c8; /* Light grey text */
+  }
+
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-top: 16px;
+  }
+
+  .full-width {
+    width: 80%;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #043927;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 101px;
+  }
+
+  .btn:hover {
+    background-color: #b0c4c8;
+  }
+
+  /* Add the robot image */
+  .robot {
+      position: absolute;
+bottom: -18px;
+left: -103px;
+width: 200px;
+}
